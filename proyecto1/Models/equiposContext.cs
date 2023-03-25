@@ -8,6 +8,14 @@ namespace proyecto1.Models
         {
         }
 
-        public DbSet<equipos>equipos { get; set; }  
+        public DbSet<equipos>equipos { get; set; }
+        public DbSet<carrera> carrera { get; set; }
+        public DbSet<estado_equipo> estado_equipos { get; set; }      
+        public DbSet<estados_reserva> estados_reserva { get; set; }
+        public DbSet<facultades> facultades { get; set; }
+        public DbSet<reservas> reservas { get; set; }
+        public DbSet<usuarios> usuarios { get; set; }
+        public DbSet<marcas> marcas { get; set; }
+        public DbSet<tipo_equipocs> tipo_equipo { get; set; }
     }
 }
